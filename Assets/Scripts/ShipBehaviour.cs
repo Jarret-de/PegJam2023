@@ -5,7 +5,7 @@ using UnityEngine;
 public class ShipBehaviour : MonoBehaviour
 {
 
-    [SerializeField] private KeyCode _moveLeft = KeyCode.A, _moveRight = KeyCode.D, _netUp = KeyCode.A, _netDown = KeyCode.D;
+    [SerializeField] private KeyCode _moveLeft = KeyCode.A, _moveRight = KeyCode.D;
     private float _speed = 5, _test = 1f;
     private Rigidbody2D _rb2d;
 
